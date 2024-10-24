@@ -87,7 +87,7 @@
         let user = users.find(u => u.username === username && u.password === password);
         if (user) {
             alert("Login successful! Hello " + username);
-            window.location.href = "web_design.html";
+            window.location.href = "index.html";
         } else {
             alert("Invalid username or password. Please try again.");
             document.querySelector('.form-box.Login input[type="text"]').value = '';
